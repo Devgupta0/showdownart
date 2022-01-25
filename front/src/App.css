@@ -1,0 +1,233 @@
+.navbar{
+  background-color: white;
+  height:120px;
+ 
+  border-bottom: 1px solid whitesmoke;
+}
+.img{
+  height:125px;
+  width:160px;
+  margin-left: 30px;
+}
+.section{
+  
+  width: 1000px;
+  
+  margin: auto;
+  margin-top:4%;
+  
+}
+
+.section1{
+  border: 1px solid whitesmoke;
+  max-width:1000px;
+  overflow-y: scroll;
+
+  max-height: 400px;
+  height:auto;
+  margin: auto;
+  margin-top:4%;
+  box-shadow: 0 1px 3px 0 white, 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.con{
+  position: relative;
+  top:40px;
+  
+}
+.row1{
+  position:relative;
+  left:160px;
+  top:10px;
+}
+.table{
+ 
+  width:300px;
+  max-height: 300px;
+  height:auto;
+  text-align: center;
+  
+}
+
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 10px;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  color:gray;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button-section {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error{
+  color:red;
+  font-size: 10px;
+  position: absolute;
+  left:38%;
+  margin-top: 60px;
+}
+.button {
+  padding: 5px 10px;
+  margin: 20px;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button1 {
+  padding: 5px 10px;
+  background-color: white;
+  border: 3px solid indianred;
+  color: indianred;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: whitesmoke;
+}
+
+.remove {
+  background-color: rgb(192, 53, 53);
+}
+.remove:hover {
+  background-color: rgb(187, 43, 43);
+}
+
+
+
+.button3{
+  float: right;
+  background-color: white;
+  color:black;
+  border:3px solid black;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 300px;
+  overflow: auto;
+  }
+.my-custom-scrollbar1 {
+  position: relative;
+  top:50px;
+  height: 600px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  border-radius: 10px;
+  }
+
+
+  .my-custom-scrollbar::-webkit-scrollbar {
+      width: 10px;
+      
+    }
+    
+    /* Track */
+    .my-custom-scrollbar::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    .my-custom-scrollbar::-webkit-scrollbar-thumb {
+      background: lightgray; 
+      border-radius: 10px;
+    }
+    
+
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: lightgray; 
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: lightgray; 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+      background: lightgray; 
+    }
+
+    
+    
+@media only screen and (max-width: 600px) {
+  .section1{
+      border: 1px solid whitesmoke;
+      width:auto;
+      height:450px;
+      
+      margin-top:20%;
+      box-shadow: 0 1px 3px 0 white, 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+      
+  }
+  .con{
+      position:relative;
+      top:20px;
+      left:0px;
+  }
+  .row1{
+      position: relative;
+      top:20px;
+      left:55px;
+  }
+  .section{
+      width: auto;
+      position: relative;
+      top:30px;
+  }
+  .section2{
+      width:auto;
+      position: relative;
+      top:50px;
+  }
+  .my-custom-scrollbar1 {
+      position: relative;
+      top:50px;
+      height: auto;
+      overflow: auto;
+      }
+}
+
